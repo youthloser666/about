@@ -89,22 +89,20 @@ section footer p a {
 }
 
 ul {
-  list-style: none; /* Menghilangkan bullet point default */
-  padding: 0; /* Menghilangkan padding default pada ul */
+  list-style: none;
+  padding: 0;
   margin: 0;
-  width: 100%; /* Menghilangkan margin default pada ul */
+  width: 100%;
 }
 
 li {
-  display: flex; /* Menggunakan flexbox untuk mengatur elemen di dalamnya */
-  align-items: center; /* Membuat item di dalam li sejajar vertikal di tengah */
-  margin-bottom: 10px; /* Memberikan jarak antar item list */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 li span:first-child {
-  /* Gaya untuk ikon (span pertama) */
-  margin-right: 10px; /* Memberikan jarak antara ikon dan teks */
-  display: inline-flex; /* Agar bisa menggunakan align-items pada ikon jika perlu */
+  margin-right: 10px;
+  display: inline-flex;
   justify-content: center;
-  /* Anda mungkin perlu mengatur width dan height jika ikonnya SVG atau gambar */
 }
